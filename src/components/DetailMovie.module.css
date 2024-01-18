@@ -1,0 +1,32 @@
+.detail {
+  color: #342f1f;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.detail img {
+  width: 100%;
+
+  opacity: 0.1;
+}
+
+.detail_info {
+  position: absolute;
+  top: 5%;
+  width: 80%;
+}
+
+.detail_genres {
+  list-style: none;
+  margin: 5%;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.detail_summary {
+  font-size: 20px;
+}
